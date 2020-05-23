@@ -1,0 +1,310 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family:Tahoma;
+  
+}
+
+body{margin:0px;
+padding:0px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+p{margin:0px;
+padding:0px;}
+a {
+  background-color: transparent;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+textarea {
+  overflow: auto;
+}
+
+
+.mainHeader{
+	
+	
+	background-color:white;
+}
+.mainHeader2{
+	
+	background-color:#25374F;
+	
+}
+
+.mainArea:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.mainHeader2:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.mainArea{
+	padding:20px 0px;
+	margin:0 auto;
+	width:1200px;
+}
+
+.part1{
+	width:30%;
+	float:left;
+	margin:0px;
+	padding:2px 0px 2px 50px;
+	
+}
+.part2{
+	width:50%;
+	float:left;
+	
+}
+.part3{
+	width:15%;
+	float:left;
+}
+.unli{
+	margin: 0;
+	list-style: none;
+}
+.unli:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.unli li{
+	
+	float: left;
+}
+.unli li a{ 
+	padding: 10px 30px 10px 10px;
+    font-size:17px;
+	display: block;
+	text-decoration: none;
+    color: #232323;}
+
+nav ul li:hover {
+	border-bottom:4px solid #13519D;
+	
+}
+.con{
+	border:2px solid #13519D;
+	color:#13519D;
+	font-size:17px;
+	background-color:white;
+	margin:0px;
+	padding:8px 15px;
+	
+}
+.con:hover{
+	border:2px solid #13519D;
+	color:white;
+	background-color:#13519D;
+}
+.box{
+	width:1050px;
+    margin:0px auto;
+	text-align:right;
+	}
+	.box2{
+    padding:10px 0px;
+	width:1050px;
+    margin:0px auto;
+	text-align:center;
+	color:white;
+	font-size:12px;
+	}
+	
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width:20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background-color:white;
+  color: #25374F;
+}
+
+.fa-twitter {
+  background: white;
+  color: #25374F;
+}
+
+.sec1{
+	background-color:#25374F;
+}
+.sec2{
+	background-color: #16273B; 
+  background-image: linear-gradient(-90deg, #000000, #16273B);
+}
+.sec3{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+    background-color: white;
+}
+.sec4{
+	background-color: #16273B; 
+  background-image: linear-gradient(#F5F6F8, white);
+}
+
+
+.onehalf{
+	color:white;
+	width:45%;
+	float:left;
+	margin:0px auto;
+	font-size:20px;
+	padding:11% 0% 11% 15%;
+}
+.onehal{
+	width:30%;
+	padding:8% 0%;
+    float:left;
+}
+.dw{
+	border:2px solid white;
+	color:#25374f;
+	background-color:white;
+	padding:10px 24px;
+	font-size:12px;
+	margin-left:50px;
+	
+}
+.dw:hover{
+	border:2px solid white;
+	color:white;
+	background-color:#25374f;
+	opacity:0.7;
+	
+}
+.learn{
+	border:2px solid #13519D;
+	border-radius:5%;
+	color:white;
+	background-color:#13519D;
+	padding:14px 30px;
+	font-size:16px;
+	
+	
+}
+.learn:hover{
+	
+	color:#13519D;
+	background-color:white;}
+	
+.first{
+	
+	width:47%;
+	float:left;
+	margin:80px 0px 80px 22px;
+	
+}
+.second{
+	
+	width:47%;
+    float:left;
+	padding:2%;
+	
+	margin:90px 0px 70px 0px;
+	
+}
+.b1{
+	border:2px solid white;
+	border-radius:1%;
+	color:#0D3260;
+	background-color:white;
+	width:65%;
+	text-align:left;
+	padding:60px;
+	font-size:18px;
+	margin-left:10%;
+	
+	
+}
+.b1:hover{
+	border:2px solid #0D3260;
+	color:white;
+	padding:60px 60px 60px 100px;
+	width:85%;
+	background-color:#0D3260;
+	font-size:20px;
+	margin-left:0%;
+}
+.f1{
+margin:0px auto;
+background-image:url("bg2.png");
+background-repeat: no-repeat;
+width:74%;
+padding:5%;
+border-radius:8px;
+}
+.f1:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.info{
+	background-color:#0D3260;
+	opacity:0.6; 
+	width:70%;
+	border:none;
+	border-bottom: 0.8px solid white;
+	
+	
+}	
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+  font-style:italic;
+  font-size:15px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+ font-style:italic;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+ font-style:italic;
+}
+.half1{
+	width:30%;
+	float:left;
+	padding-left:16%;
+	
+}
+	
